@@ -33,7 +33,8 @@ def get_all_currencies():
 			if currency != code["code"]:
 				currency_param += f'{currency}/{code["code"]}+'
 		result = __get_currency(currency_param[0:-1])
-		print(result)
 		if 'error' not in result:
 			currencies[currency] = result['currency']
+		else:
+			currencies[currency] = result
 	return currencies
