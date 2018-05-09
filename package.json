@@ -1,0 +1,38 @@
+{
+  "name": "exchanger",
+  "version": "1.0.0",
+  "description": "Currencies exchanger",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "test": "karma start karma.config.js --single-run"
+  },
+  "author": "Ildar Khairullin",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.9",
+    "vue-materialize": "^1.0.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}

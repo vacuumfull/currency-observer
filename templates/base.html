@@ -1,0 +1,40 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="yandex-verification" content="38ae0b4ae4e47cec" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,600&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	{% if ENV == 'production' %}
+		<link href="{% static 'dist/style.min.css' %}" rel="stylesheet">
+	{% else %}
+		<link href="{% static 'dist/style.css' %}" rel="stylesheet">
+	{% endif %}
+
+    {% block title %}
+    {% endblock title %}
+
+    {% block description %}
+    {% endblock description %}
+
+</head>
+<body class="grey lighten-3">
+    <div id="index">
+        <div class="wrapper">
+            {% block content %}
+            {% endblock content %}
+        </div>
+	</div>
+
+	{% if ENV == 'production' %}
+		<script src="{% static 'dist/main.bundle.min.js' %}"></script>
+	{% else %}
+		<script src="{% static 'dist/main.bundle.js' %}"></script>
+	{% endif %}
+</body>
+</html>

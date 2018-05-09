@@ -1,0 +1,206 @@
+[
+	{
+		"code": "AED",
+		"country": "UA Emirates dirham"
+	},
+	{
+		"code": "AUD",
+		"country": "Australian dollar"
+	},
+	{
+		"code": "ARS",
+		"country": "Argentine peso"
+	},
+	{
+		"code": "AZN",
+		"country": "Azerbaijani manat "
+	},
+	{
+		"code": "BAM",
+		"country": "Bosnian Mark"
+	},
+	{
+		"code": "BHD",
+		"country": "Bahraini dinar "
+	},
+	{
+		"code": "BRL",
+		"country": "Brazilian real"
+	},
+	{
+		"code": "CAD",
+		"country": "Canadian dollar"
+	},
+	{
+		"code": "CHF",
+		"country": "Swiss franc"
+	},
+	{
+		"code": "CLP",
+		"country": "Chilean peso"
+	},
+	{
+		"code": "CNY",
+		"country": "Chinese Yuan "
+	},
+	{
+		"code": "CRC",
+		"country": "Costa Rican Colon"
+	},
+	{
+		"code": "CSK",
+		"country": "Czech koruna"
+	},
+	{
+		"code": "DKK",
+		"country": "Danish krone "
+	},
+	{
+		"code": "DZD",
+		"country": "Algerian dinar"
+	},
+	{
+		"code": "EGP",
+		"country": "Egyptian pound"
+	},
+	{
+		"code": "EUR",
+		"country": "Euro"
+	},
+	{
+		"code": "GBP",
+		"country": "Pound sterling"
+	},
+	{
+		"code": "GEL",
+		"country": "Georgian lari"
+	},
+	{
+		"code": "GHS",
+		"country": "Ghanaian cedi"
+	},
+	{
+		"code": "HKD",
+		"country": "Hong Kong Dollar"
+	},
+	{
+		"code": "HRK",
+		"country": "Croatian kuna"
+	},
+	{
+		"code": "ILS",
+		"country": "Israeli shekel "
+	},
+	{
+		"code": "ISK",
+		"country": "Icelandic króna"
+	},
+	{
+		"code": "IRR",
+		"country": "Iranian rial"
+	},
+	{
+		"code": "JOD",
+		"country": "Jordanian dinar"
+	},
+	{
+		"code": "JPY",
+		"country": "Japanese yen"
+	},
+	{
+		"code": "KRW",
+		"country": "South Korean won "
+	},
+	{
+		"code": "KWD",
+		"country": "Kuwaiti dinar"
+	},
+	{
+		"code": "LBP",
+		"country": "Lebanese pound"
+	},
+	{
+		"code": "LKR",
+		"country": "Sri Lankan rupee "
+	},
+	{
+		"code": "MXN",
+		"country": "Mexican peso"
+	},
+	{
+		"code": "NOK",
+		"country": "Norwegian krone "
+	},
+	{
+		"code": "NZD",
+		"country": "New Zealand dollar"
+	},
+	{
+		"code": "OMR",
+		"country": "Omani rial"
+	},
+	{
+		"code": "PEN",
+		"country": "Peruvian sol"
+	},
+	{
+		"code": "PKR",
+		"country": "Pakistani rupee"
+	},
+	{
+		"code": "PLN",
+		"country": "Polish złoty"
+	},
+	{
+		"code": "QAR",
+		"country": "Qatari riyal "
+	},
+	{
+		"code": "RON",
+		"country": "Romanian leu"
+	},
+	{
+		"code": "RUB",
+		"country": "Russian ruble"
+	},
+	{
+		"code": "SAR",
+		"country": "Saudi riyal"
+	},
+	{
+		"code": "SEK",
+		"country": "Swedish krona"
+	},
+	{
+		"code": "SGD",
+		"country": "Singapore dollar "
+	},
+	{
+		"code": "THB",
+		"country": "Thai baht"
+	},
+	{
+		"code": "TRY",
+		"country": "Turkish lira"
+	},
+	{
+		"code": "TWD",
+		"country": "New Taiwan dollar "
+	},
+	{
+		"code": "USD",
+		"country": " US Dollar"
+	},
+	{
+		"code": "UYU",
+		"country": "Uruguayan peso"
+	},
+	{
+		"code": "UZS",
+		"country": "Uzbekistani soʻm"
+	},
+	{
+		"code": "ZAR",
+		"country": "South African rand"
+	}
+]	
