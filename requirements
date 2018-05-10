@@ -1,2 +1,4 @@
 python-memcached == 1.59
 pytest ~= 3.0.6
+celery == 4.1.0
+django_celery_beat == 1.1.1

@@ -3,6 +3,7 @@ from django.views.generic import TemplateView
 from django.http.response import JsonResponse
 from django.core.cache import cache
 from app.api import read_codes, get_all_currencies
+from app.helper import save_to_cache
 
 class IndexView(TemplateView):
 	"""Index view"""
@@ -26,9 +27,8 @@ def show_codes(request):
 	return JsonResponse(read_codes(), safe=False)
 
 def __from_cache_or_request():
-	cache_time = 60*60*36
 	currencies = cache.get('currencies')
 	if currencies is None or len(currencies) == 0:
 		currencies = get_all_currencies()
-		cache.set('currencies',currencies, cache_time)
+		save_to_cache(currencies)
 	return currencies
