@@ -60,8 +60,13 @@ export default {
       if (self.fromCurrency === '' || self.toCurrency === "" ) return;
       axios.get(`/api/currency/${self.fromCurrency}/${self.toCurrency}/`)
         .then(response => {
-          self.result = response.data.value
-          self.currency = self.result
+          if (response.data.value !== undefined){
+            self.result = response.data.value
+            self.currency = self.result
+          } else {
+            console.error(response.data.error)
+          }
+         
         })
         .catch(e => {
           console.error(e)
