@@ -3,7 +3,6 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-//const isWatch = process.argv.indexOf('watch') > -1
 const isProd = process.env.NODE_ENV === 'production' || process.argv.indexOf('production') > -1;
 
 const config = {
