@@ -5,7 +5,7 @@ If you already have set DJANGO_SETTINGS_MODULE run in OSX or Ubuntu
 on Windows `set DJANGO_SETTINGS_MODULE=exchanger.settings.localhost`
 
 After that
-`pip3 install -r requirement`
+`pip3 install -r requirements`
 and
 `npm install`
 
