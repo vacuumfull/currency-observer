@@ -16,6 +16,10 @@ class Api():
 		self.MAIN_CURRENCIES = ('EUR', 'USD', 'CSK', 'PLN')
 
 	def get_currency(self, currency: str):
+		"""Get currencies.
+		
+		currency -- string in format 'EUR/USD'
+		"""
 		try:
 			response = requests.get(f'{self.API_URL}?token={settings.CURRENCY_TOKEN}&currency={currency}')
 			return response.json()
@@ -60,15 +64,23 @@ class Api():
 
 
 	def show_all_currencies(self, request):
+		"""
+		Show all currencies in json.
+
+		request -- request object
+		"""
 		currencies = self.__from_cache_or_request()
 		return JsonResponse(currencies, safe=False)
 
 	def show_codes(self, request):
+		"""
+		Show countries and codes and currencies in json"""
 		return JsonResponse(self.read_codes(), safe=False)
 
 	def __from_cache_or_request(self):
+		"""Get currencies fron cache or make request"""
 		currencies = cache.get('currencies')
 		if currencies is None or len(currencies) == 0:
-			currencies = self.api.get_all_currencies()
+			currencies = self.get_all_currencies()
 			save_to_cache(currencies)
 		return currencies
